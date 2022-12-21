@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "Bold";
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("fonts/NerkoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/RobotoSlab-Regular.ttf");
+}
+
+/* reset.css */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bebebe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #939393;
+  border-radius: 8px;
+  border: 1px solid #bebebe;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #939393;
+}
+
+.headerWrapper {
+  width: 100%;
+  height: 85px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: antiquewhite;
+  z-index: 100;
+}
+
+.logo {
+  color: white;
+  font-size: 50px;
+  font-family: "Regular";
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.menuSearch {
+  width: 550px;
+  height: 35px;
+  border: 3px solid #008dc1;
+  outline: 0px;
+  border-radius: 30px;
+}
+
+.navLinks .navLinks__now {
+  font-family: "Bold";
+  border-bottom: 2px solid #008dc1;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navLinks a {
+  font-family: "Bold";
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.navLinks a:after {
+  display: block;
+  position: relative;
+  left: 0;
+  width: 0;
+  height: 2px;
+  content: "";
+  -webkit-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+  background-color: #008dc1;
+}
+
+.navLinks a:hover:after, .navLinks a:focus:after {
+  width: 100%;
+}
+
+.navLinks a:hover, .navLinks a:focus {
+  color: #008dc1;
+}
+
+.menuLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Bold";
+}
+
+.menuLogin li {
+  display: inline-block;
+}
+
+.menuLogin p {
+  color: white;
+}
+
+.menuLogin a {
+  color: white;
+  text-decoration: none;
+}
+
+.menuLogin a:hover, .menuLogin a:focus {
+  color: #008dc1;
+}
+/*# sourceMappingURL=Header.module.css.map */

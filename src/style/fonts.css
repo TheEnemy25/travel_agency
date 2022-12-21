@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Bold";
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("fonts/NerkoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/RobotoSlab-Regular.ttf");
+}
+/*# sourceMappingURL=fonts.css.map */

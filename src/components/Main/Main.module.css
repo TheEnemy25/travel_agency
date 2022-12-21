@@ -1,0 +1,339 @@
+@font-face {
+  font-family: "Bold";
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("fonts/NerkoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/RobotoSlab-Regular.ttf");
+}
+
+/* reset.css */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bebebe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #939393;
+  border-radius: 8px;
+  border: 1px solid #bebebe;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #939393;
+}
+
+.mainWrapper {
+  width: 100%;
+  height: 100%;
+  margin-top: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainVideo {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainVideo video {
+  width: 100%;
+}
+
+.mainFive {
+  width: calc(100% + 3rem);
+}
+
+.mainFiveOne {
+  border-width: 1px;
+  height: 563px;
+  -webkit-transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  width: 721px;
+}
+
+.mainFiveTwo {
+  border-width: 1px;
+  height: 563px;
+  -webkit-transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  -webkit-transform: translateX(479px) translateZ(-400px) rotateY(-35deg);
+          transform: translateX(479px) translateZ(-400px) rotateY(-35deg);
+  top: 0px;
+  z-index: 998;
+  opacity: 1;
+  visibility: visible;
+  width: 721px;
+}
+
+.mainFiveThree {
+  border-width: 1px;
+  height: 553px;
+  -webkit-transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  -webkit-transform: translateX(735px) translateZ(-500px) rotateY(-35deg);
+          transform: translateX(735px) translateZ(-500px) rotateY(-35deg);
+  top: 0px;
+  z-index: 997;
+  opacity: 1;
+  visibility: visible;
+  width: 553px;
+}
+
+.mainFiveFour {
+  border-width: 1px;
+  width: 721px;
+  height: 563px;
+  -webkit-transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  -webkit-transform: translateX(-959px) translateZ(-500px) rotateY(35deg);
+          transform: translateX(-959px) translateZ(-500px) rotateY(35deg);
+  top: 0px;
+  z-index: 997;
+  opacity: 1;
+  visibility: visible;
+}
+
+.mainFiveFive {
+  border-width: 1px;
+  width: 721px;
+  height: 563px;
+  -webkit-transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+  transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  -webkit-transform: translateX(-479px) translateZ(-400px) rotateY(35deg);
+          transform: translateX(-479px) translateZ(-400px) rotateY(35deg);
+  top: 0px;
+  z-index: 998;
+  opacity: 1;
+  visibility: visible;
+}
+
+.mainBlocks {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mainBlocks .mainBlocksInfo {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+
+.mainBlocks .mainBlocksInfo .imgs {
+  height: 250px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.mainBlocks .mainBlocksInfo .mainBlocksInfoTitle {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.mainBlocks .mainBlocksInfo .mainBlocksInfoTitle a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Regular";
+}
+/*# sourceMappingURL=Main.module.css.map */

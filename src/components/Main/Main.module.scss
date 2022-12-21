@@ -1,0 +1,143 @@
+@import '../../style/fonts.scss';
+@import '../../style/variable.scss';
+@import '../../style/base.scss';
+
+.mainWrapper {
+    width: 100%;
+    height: 100%;
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainVideo {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    video {
+        width: 100%;
+    }
+}
+
+.mainFive {
+    width: calc(100% + 3rem)
+}
+
+.mainFiveOne {
+    border-width: 1px;
+    height: 563px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+    width: 721px;
+}
+
+.mainFiveTwo {
+    border-width: 1px;
+    height: 563px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+    transform: translateX(479px) translateZ(-400px) rotateY(-35deg);
+    top: 0px;
+    z-index: 998;
+    opacity: 1;
+    visibility: visible;
+    width: 721px;
+
+}
+
+.mainFiveThree {
+    border-width: 1px;
+    height: 553px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+    transform: translateX(735px) translateZ(-500px) rotateY(-35deg);
+    top: 0px;
+    z-index: 997;
+    opacity: 1;
+    visibility: visible;
+    width: 553px;
+}
+
+.mainFiveFour {
+    border-width: 1px;
+    width: 721px;
+    height: 563px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+    transform: translateX(-959px) translateZ(-500px) rotateY(35deg);
+    top: 0px;
+    z-index: 997;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainFiveFive {
+    border-width: 1px;
+    width: 721px;
+    height: 563px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;
+    transform: translateX(-479px) translateZ(-400px) rotateY(35deg);
+    top: 0px;
+    z-index: 998;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainBlocks {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .mainBlocksInfo {
+        width: 400px;
+        height: 400px;
+        margin: 10px;
+
+        .imgs {
+            height: 250px;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        .mainBlocksInfoTitle {
+            width: 100%;
+            margin-top: 5px;
+            text-align: center;
+
+            a {
+                font-size: 20px;
+                text-decoration: none;
+                font-family: $Regular;
+            }
+        }
+
+        .mainBlocksInfoDescription {
+            height: 250px;
+            width: 350px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            margin: 10px auto 0;
+            font-family: $Roboto;
+            font-size: 14px;
+        }
+
+        .mainBlocksInfoButton {
+            width: 70%;
+            height: 30px;
+            background-color: $color-bondi-blue;
+            display: flex;
+            margin: 10px auto;
+            border-radius: 10px;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    }
+}
