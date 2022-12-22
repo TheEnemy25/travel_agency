@@ -4,13 +4,14 @@ import { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 
-const aquaticCreatures = [
+export const aquaticCreatures = [
     { label: 'USD', value: 'USD', },
     { label: 'EUR', value: 'EUR' },
 ];
 
 function Header() {
     const [selectedOption, setSelectedOption] = useState(null);
+    console.log(selectedOption)
 
     return (
         <>

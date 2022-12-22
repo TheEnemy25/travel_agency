@@ -23,10 +23,7 @@ export const SignUp = () => {
                     <label>E-mail</label>
                 </div>
 
-                <div className={styles.signUpMainTxt}>
-                    <input type="number" required />
-                    <label>Phone</label>
-                </div>
+
 
                 <div className={styles.signUpMainTxt}>
                     <input minlength="8" type="password" required />

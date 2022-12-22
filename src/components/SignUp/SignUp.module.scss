@@ -39,7 +39,6 @@
             background: none;
             outline: none;
             font-family: $Roboto;
-
             &:focus~label,
             &:valid~label {
                 top: -5px;
